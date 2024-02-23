@@ -1,18 +1,12 @@
 
 import './App.css';
-import EventCalender from './components/EventCalender';
-import FeeDetails from './components/FeeDetails';
-import ReactSlick from './components/ReactSlick';
-import Themes from './components/Themes';
+
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div>
-      
-    <ReactSlick />
-    <Themes/> 
-    <FeeDetails />
-    <EventCalender />
+    <div className='App'>
+      <Navbar />
     </div>
     
   );
